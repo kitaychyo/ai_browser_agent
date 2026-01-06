@@ -1,0 +1,4 @@
+node_modules/
+playwright/.local-browsers/
+.env
+dist/
