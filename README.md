@@ -21,12 +21,6 @@ npx playwright install
 npm start
 ```
 
-- Демо (пример сложной задачи):
-
-```bash
-npm run demo
-```
-
 Как это работает (кратко)
 
 - `src/browserController.js` — обёртка над Playwright: открывает браузер, извлекает «снимок» страницы (тексты и атрибуты видимых элементов) и выполняет действия (click/type/navigate/screenshot).
